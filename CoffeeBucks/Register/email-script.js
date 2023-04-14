@@ -59,7 +59,7 @@ form.onsubmit = (e) => {
 
     document.getElementById("btnn").onclick = function closepopup() {
         popupmsg.classList.remove("openpopupmsg")
-        window.location.assign('https://coffeebucks.w3spaces.com/Login.html'); //redirecting user to the specified url which is inside action attribute of form tag
+        window.location.assign('CoffeeBucks/Login/Login.html'); //redirecting user to the specified url which is inside action attribute of form tag
         
     }
 }
